@@ -1,0 +1,19 @@
+{
+  "name": "attack-bot",
+  "version": "1.0.0",
+  "description": "Stand/stock system for MFCA selling server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js",
+    "deploy-commands-guild": "node deploy-commands-guild.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
